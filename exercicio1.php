@@ -1,4 +1,5 @@
 <?php
+include 'polyfill.php';
 
 $tempo=readline ('Digite o tempo gasto na viagem:' . PHP_EOL); 
 $velocidade=readline ('Informe a velocidade média:' . PHP_EOL); 
